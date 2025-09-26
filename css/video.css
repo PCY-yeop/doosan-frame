@@ -38,10 +38,10 @@ html, body {
 /* 각 슬라이드 위에 얹을 추가 이미지 */
 .top-img {
   position: absolute;
-  top: 10%;           /* 원하는 위치 (위에서 10%) */
+  top: 3%;           /* 원하는 위치 (위에서 10%) */
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;         /* 크기 조절 */
+  width: 100%;         /* 크기 조절 */
   height: auto;
   z-index: 3;         /* 가장 위 */
 }
