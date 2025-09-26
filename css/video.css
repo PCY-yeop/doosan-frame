@@ -2,18 +2,14 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: #000;
+  background: #ffffff;
 }
 
 .swiper {
-  width: 500px;       /* 가로 크기 */
-  height: 600px;      /* 세로 크기 */
+  width: 300px;       /* 가로 크기 */
+  height: 300px;      /* 세로 크기 */
   margin: 40px auto;  /* 가운데 정렬 */
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
-
 .swiper-slide {
   position: relative;
   background: #000;
@@ -45,7 +41,7 @@ html, body {
   top: 10%;           /* 원하는 위치 (위에서 10%) */
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;         /* 크기 조절 */
+  width: 90%;         /* 크기 조절 */
   height: auto;
   z-index: 3;         /* 가장 위 */
 }
